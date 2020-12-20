@@ -29,4 +29,8 @@ make sure to choose to install **py** launcher that comes with the python3 (3.3 
    they should also install pip for python2.
 
 3. Run `py --list` to see which python versions you have installed.
-4. 
+
+#### Errors
+If you are trying to install some random dependey using `pip install`, and you get this error:    
+`error: Microsoft Visual C++ 9.0 is required. Get it from http://aka.ms/vcpython27`
+You probably need to install **Microsoft Visual C++ Compiler for Python 2.7**: https://www.microsoft.com/en-us/download/details.aspx?id=44266 
